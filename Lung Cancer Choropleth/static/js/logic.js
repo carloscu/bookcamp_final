@@ -15,7 +15,7 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 }).addTo(cancerMap);
 
 // Link to GeoJSON
-var dataFile = "../../Data/convert.json";
+var dataFile = "Data/convert.json";
 
 var geojson;
 
